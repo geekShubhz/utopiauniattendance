@@ -1,6 +1,6 @@
 # University Attendance Management System
 
-[https://ibb.co/LNs7nZZ
+[Preview Image
 ](https://i.ibb.co/2Zp4gkk/Screenshot-2023-08-28-at-1-13-23-AM.png)
 # Description
 The University Attendance Management System is a web application designed to streamline the process of marking attendance for teachers and keeping track of student attendance records. The system allows teachers to log in, register students, and mark their attendance, providing a more efficient and organized way of managing attendance in a university setting.
