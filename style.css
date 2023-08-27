@@ -1,0 +1,176 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  .heading {
+    background-color: #3498db; /* Attractive blue color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  #school {
+    font-family: sans-serif;
+    font-size: 48px;
+    color: #3498db; /* Matching blue color */
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #e74c3c; /* Attractive red color */
+  }
+  
+  /* Login Form Styles */
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .right {
+    background-color: #2ecc71; /* Attractive green color */
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  #form {
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  #form input {
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #submit:hover {
+    background-color: #1abc9c; /* Hover color for button */
+    color: white;
+  }
+  
+  .login_head {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 38px;
+    background-color: #3498db; /* Matching blue color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  /* Student Form Styles */
+  table,
+  td,
+  th {
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  th,
+  td {
+    padding: 15px;
+  }
+  
+  tr > th {
+    background-color: #3498db; /* Matching blue color */
+    color: white;
+  }
+  
+  .studentData {
+    width: 100%;
+    background-color: #3498db; /* Matching blue color */
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #form1 {
+    margin: auto;
+    width: 80%;
+  }
+  
+  #form1 input {
+    padding: 10px;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #form1 input:focus {
+    outline: none;
+  }
+  
+  .td6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .td6 > button {
+    margin-right: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .td6 > button:nth-child(1) {
+    background-color: #2ecc71; /* Attractive green color */
+  }
+  
+  .td6 > button:nth-child(2) {
+    background-color: #e74c3c; /* Attractive red color */
+  }
+  
+  #absent {
+    background-color: #e74c3c; /* Attractive red color */
+  }
